@@ -1,0 +1,17 @@
+body {
+  background-color: #252525;
+  font-family: 'Press Start 2P', cursive;
+  color: #E0E0E0;
+}
+
+h1, h2, h3 {
+  color: #00FF33;
+}
+
+a {
+  color: #00C0FF;
+}
+
+.container {
+  margin: 5%;
+}
