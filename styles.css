@@ -1,17 +1,43 @@
 body {
   background-color: #252525;
-  font-family: 'Press Start 2P', cursive;
   color: #E0E0E0;
+  font-family: Quicksand, sans-serif;
 }
 
 h1, h2, h3 {
   color: #00FF33;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+p, li, ul {
+  font-size: 1.5rem;
+}
+
+p {
+  padding-left: 1%;
 }
 
 a {
   color: #00C0FF;
 }
 
+.emphasized {
+  font-weight: bolder;
+  color: beige;
+}
+
+.project {
+  padding-left: 1%;
+}
+
 .container {
   margin: 5%;
+}
+
+.project-image {
+  float: right;
+  border-radius: 25px;
+  margin: 2%;
+  width: 20%;
+  height: auto;
 }

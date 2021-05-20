@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>Home of harmancode</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,60 +13,155 @@
   <div class="container">
     <h1>Welcome to Harman's page!</h1>
 
+    <img class="project-image" src="img/ert.jpg" alt="Harman">
     <h2>Who am I?</h2>
 
-    <p>Computers, video games, and software development... I have always been passionately interested in these topics, and after getting an LLM degree from University of Exeter and working as a lawyer for more than 10 years, I have realized my dream, and -while continuing my career as a legal advisor- I have started working as a software developer.</p>
+    <p>Computers, video games, and software development 👩‍💻... I have always been passionately interested in these topics, and after getting an LLM degree from University of Exeter 🎓 and working as a lawyer ⚖ for more than 10 years, I finally realized my dream, and -while continuing my career as a legal advisor- I have started working as a software developer! 🥳</p>
 
-    <p>I have apps on the App Store that I programmed with Swift, desktop apps built with Python and Delphi, and web apps (created with HTML, CSS, JS, jQuery, dJango, and others).</p>
+    <p>I have apps on the <span class="emphasized">App Store</span> that I programmed with <span class="emphasized">Swift</span>, desktop apps built with <span class="emphasized">Python</span> and <span class="emphasized">Delphi</span>, and web apps (created with <span class="emphasized">HTML</span>, <span class="emphasized">CSS</span>, <span class="emphasized">JS</span>, <span class="emphasized">jQuery</span>, <span class="emphasized">dJango</span>, and others).</p>
 
-    <p>While I am actively working as a developer, I am pursuing a college degree in CS/CIT. I have a GPA of 4.0, and the courses I have taken so far include database design, Oracle SQL, Oracle PL/SQL, Python, Object-Oriented Programming: Java, Networking, and Unix.</p>
+    <p>While I am actively working as a developer, I am pursuing a college degree in CS/CIT. I have a <span class="emphasized">GPA of 4.0</span>, and the courses I have taken so far include  <span class="emphasized">Database Design</span>, <span class="emphasized">Oracle SQL</span>, <span class="emphasized">Oracle PL/SQL</span>, <span class="emphasized">Programming Fundamentals: Python</span>, <span class="emphasized">Object-Oriented Programming: Java</span>, <span class="emphasized">Networking</span>, and <span class="emphasized">Unix</span>.</p>
 
-    <p>Command and Conquer Tiberan Dawn, Civilization, the Witcher, Heroes of Might and Magic are some of my favorite games.</p>
+    <p>Command and Conquer Tiberan Dawn, Civilization, the Witcher, Heroes of Might and Magic are some of my favorite games 🎮.</p>
 
-    <p>I love coffee, good music, and taking daily walks.</p>
+    <p>I love coffee ☕, good music 🎸, and taking daily walks 🚶‍♂️.</p>
 
-    <p>I live in Austin, Texas.</p>
+    <p>We, me and my family 👨‍👩‍👧‍👦, live in Austin, Texas 🤠.</p>
 
     <h2>My Projects</h2>
 
-    <h3><a href="https://masterlistapp.com">Masterlist: Focus & Tasks</a></h3>
-    <p>An advanced task manager combined with a highly customizable Focus Timer, performance charts, stats, and time log. Available on the App Store.</p>
-    <p>Built using Swift and XCode with native frameworks & technologies such as UIKit, Core Data, Local Notifications, AVFoundation, StoreKit, Localization and Internationalization, In-App Purchases, Networking, and third-party frameworks such as Google AdMobs (in previous versions), and other third-party libraries via CocoaPods. Maintained source control via Git.</p>
-    <p>It supports Dark Mode. Widgets for iOS 14 are being added using SwiftUI in the next version.</p>
+    <div class="project">
+      <img class="project-image" src="img/masterlist_icon.png" alt="Masterlist: Focus & Tasks">
+      <h3>Masterlist: Focus & Tasks</h3>
+      <p>An advanced task manager combined with a highly customizable Focus Timer, performance charts, stats, and time log. Available on the App Store.</p>
+      <p>Built using <span class="emphasized">Swift</span> and <span class="emphasized">XCode</span> with native frameworks & technologies such as <span class="emphasized">UIKit</span>, <span class="emphasized">Core Data</span>, <span class="emphasized">Local Notifications</span>, <span class="emphasized">AVFoundation</span>, <span class="emphasized">StoreKit</span>, <span class="emphasized">Localization</span> and <span class="emphasized">Internationalization</span>, <span class="emphasized">In-App Purchases</span>, <span class="emphasized">Networking</span>, and third-party frameworks such as <span class="emphasized">Google AdMobs</span> (in previous versions), and other third-party libraries via <span class="emphasized">CocoaPods</span>. Maintained source control via <span class="emphasized">Git</span>.</p>
+      <p>It supports <span class="emphasized">Dark Mode</span>. <span class="emphasized">Widgets</span> for iOS 14 are being added using <span class="emphasized">SwiftUI</span> in the next version.</p>
+      <ul>
+        <li>
+          App Store: <a href="https://apps.apple.com/us/app/masterlist-focus-tasks/id1486131008">https://apps.apple.com/us/app/masterlist-focus-tasks/id1486131008</a>
+        </li>
+        <li>
+          Web: <a href="https://masterlistapp.com">https://masterlistapp.com</a>
+        </li>
+      </ul>
+    </div>
 
-    <h3><a href="https://apps.apple.com/us/app/lydian/id1546931630">Lydian</a></h3>
+    <div class="project">
+      <img class="project-image" src="img/lydian_icon.png" alt="Lydian">
+      <h3>Lydian</h3>
 
-    <p>A currency converter, and foreign exchange calculator for iOS. </p>
-    <p>Built using Swift and XCode with native frameworks & technologies such as UIKit, Core Data, UITableView, Networking, JSON Encoding and Decoding with Codable protocol. It supports Dark Mode. Widgets for iOS 14 are being added using SwiftUI in the next version.</p>
-    <p>Took advantage of REST API and JSON (Javascript Object Notation) to fetch and parse the latest exchange data from a third-party provider, and used Core Data to store the data locally for offline usage, just for fun.</p>
+      <p>A currency converter, and foreign exchange calculator for iOS. </p>
 
-    <h3><a href="https://github.com/harmancode/Flashcards">Flashcards</a></h3>
+      <p>
+        Built using <span class="emphasized">Swift</span> and <span class="emphasized">XCode</span> with native frameworks & technologies such as <span class="emphasized">UIKit</span>, <span class="emphasized">Core Data</span>, <span class="emphasized">UITableView</span>, <span class="emphasized">Networking</span>, <span class="emphasized">RESTful API</span>, <span class="emphasized">JSON</span> Encoding and Decoding with <span class="emphasized">Codable</span> protocol.
+        It supports <span class="emphasized">Dark Mode</span>. <span class="emphasized">Widgets</span> for iOS 14 are being added using <span class="emphasized">SwiftUI</span> in the next version.
+      </p>
+      <ul>
+        <li>
+          App Store: <a href="https://apps.apple.com/us/app/lydian/id1546931630">https://apps.apple.com/us/app/lydian/id1546931630</a>
+        </li>
+      </ul>
+    </div>
 
-    <p>Flashcards is a cross-platform study tool. It calculates which flashcards you should study, and how often, based on a psychologically-proven spaced repetition algorithm. Create, edit, import, and export your own decks and flashcards, and do not forget anything you learn ever again!</p>
-    <p>Built with Python. Stores the data in a SQLite3 database. Database is managed with SQL queries. Object-oriented programming principles and techniques applied in a Pythonic way. CSV module is used to code import/export operations. GUI is designed by using tkinter libraries and its grid system. One-directory package made ready by pyinstaller. Maintained source control via Git.  Stored remotely on GitHub.</p>
-    <p>Took advantage of REST API and JSON (Javascript Object Notation) to fetch and parse the latest exchange data from a third-party provider, and used Core Data to store the data locally for offline usage, just for fun.</p>
+    <div class="project">
+      <h3>Flashcards</h3>
 
-    <h3><a href="https://ertugrulharman.com/en/sayibul/">Sayibul</a></h3>
-    <p>Sayibul is a freeware code-breaking puzzle game for Microsoft Windows, a variant of famous “Bulls and Cows” game.</p>
-    <p>The objective in the game is to find your opponent’s 4 digit secret number as early as possible with the help of the results of your previous guesses.</p>
-    <p>It has many surprising features, such as single player and multiplayer gaming (hot seat, LAN, and internet), in-game online chat, four difficulty levels, calculation board, and more. It supports two languages.</p>
+      <p>Flashcards is a cross-platform study tool. It calculates which flashcards you should study, and how often, based on a psychologically-proven spaced repetition algorithm. Create, edit, import, and export your own decks and flashcards, and do not forget anything you learn ever again!</p>
+      <p>Built with <span class="emphasized">Python</span>. Stores the data in a <span class="emphasized">SQLite3</span> database. Database is managed with <span class="emphasized">SQL queries</span>. Object-oriented programming principles and techniques applied in a Pythonic way. <span class="emphasized">CSV</span> module is used to code import/export operations. GUI is designed by using <span class="emphasized">tkinter</span> libraries and its grid system. One-directory package made ready by <span class="emphasized">pyinstaller</span>. Maintained source control via Git.  Stored remotely on <span class="emphasized">GitHub</span>.</p
+      <p>
+        <ul>
+          <li>
+            Source Code on GitHub: <a href="https://github.com/harmancode/Flashcards">https://github.com/harmancode/Flashcards</a>
+          </li>
+        </ul>
+      </p>
+    </div>
 
-    <h3><a href="SimonGame/index.html">Simon Game</a></h3>
-    <p>A simple memory game, a Simon clone, programmed with #JavaScript and #jQuery in 2021 to become more familiar with them.</p>
+    <div class="project">
+      <h3>Sayibul</h3>
+      <p>Sayibul is a freeware code-breaking puzzle game for Microsoft Windows, a variant of famous “Bulls and Cows” game.</p>
+      <p>The objective in the game is to find your opponent’s 4 digit secret number as early as possible with the help of the results of your previous guesses.</p>
+      <p>It has many surprising features, such as single player and <span class="emphasized">multiplayer</span> gaming (<span class="emphasized">hot seat</span>, <span class="emphasized">LAN</span>, and <span class="emphasized">internet</span>), <span class="emphasized">in-game online chat</span>, four difficulty levels, calculation board, and more. It supports two languages.</p>
+      <p>
+        I programmed this game with <span class="emphasized">Delphi</span> when I was bored with my law exams, long time ago.
+      </p>
+      <p>
+        <ul>
+          <li>
+            Web: <a href="https://ertugrulharman.com/en/sayibul/">https://ertugrulharman.com/en/sayibul/</a>
+          </li>
+        </ul>
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>Simon Game</h3>
+      <p>A simple memory game, a Simon clone, programmed with <span class="emphasized">JavaScript</span> and <span class="emphasized">jQuery</span> to become more familiar with them.</p>
+      <p>
+        <ul>
+          <li>
+            <a href="SimonGame/index.html">Play the game</a>
+          </li>
+          <li>
+            Source Code on GitHub: <a href="https://github.com/harmancode/SimonGame">https://github.com/harmancode/SimonGame</a>
+          </li>
+        </ul>
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>Passgentie</h3>
+      <p>A simple random password generator, programmed with <span class="emphasized">dJango</span> to become more familiar with it.</p>
+      <p>
+        <ul>
+          <li>
+            Source Code on GitHub: <a href="https://github.com/harmancode/Passgentie">https://github.com/harmancode/Passgentie</a>
+          </li>
+        </ul>
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>DOS Games</h3>
+      <p>I programmed a few DOS games (a typing-speed game, a platformer, a memory game, and a mastermind clone) with <span class="emphasized">Turbo Pascal 7.0</span> with great joy when I was a high-school student.</p>
+      <p>
+        It was a challenging pleasure for me in those ancient times. "google.com" was still probably an unregistered domain name, there was no internet at home (or anywhere in the country except a few universities), and reading the documentation was not an easy task, because my second-language that I was learning at school was not English, <em>es war Deutsch</em>! 😅.
+      </p>
+      <p>
+        But, thanks to <span class="emphasized">Civilopedia</span> and <span class="emphasized">Monkey Island</span>, my English vocabulary was not so bad! (Doom did not help much)
+      </p>
+      <p>
+        I will list those games here one day. They are nostalgically valuable for me.
+      </p>
+    </div>
+
+    <h2>Ongoing Projects</h2>
+
+    <div class="project">
+      <h3>Simply Chat</h3>
+      <p>Simply Chat is an ongoing iOS app project.</p>
+      <p>The tools I use to build this app include: Swift and UIKit, Google Firebase (<span class="emphasized">Cloud Firestore</span>), <span class="emphasized">User Authentication</span>, <span class="emphasized">MVC</span>, Swift's <span class="emphasized">Result</span> type (introduced in Swift 5), <span class="emphasized">UICollectionView Lists</span> instead of UITableView (new in iOS 14!), <span class="emphasized">No storyboards</span> - All views are <span class="emphasized">programmatically</span> created, Object-Oriented Programming, Dependency Injection, Lazy initialization, Error handling, Memory management.</p>
+    </div>
 
     <h2>Other works</h2>
 
-    <h3><a href="https://ertugrulharman.com/en">Notes</a></h3>
-    <p>My public note-to-self blog, mostly about software and technology.</p>
+    <div class="project">
+      <h3><a href="https://ertugrulharman.com/en">Notes</a></h3>
+      <p>My public, bilingual, note-to-self <a href="https://ertugrulharman.com/en">blog</a>, available since 2006 (to my surprise, attracted more than half a million people so far), mostly about GNU/Linux, software, and technology.</p>
+    </div>
 
-    <h3><a href="https://gist.github.com/harmancode">Gists</a></h3>
-    <p>My gists on GitHub.</p>
+    <div class="project">
+      <h3><a href="https://gist.github.com/harmancode">Gists</a></h3>
+      <p><a href="https://gist.github.com/harmancode">My gists</a> on GitHub.</p>
+    </div>
 
     <h2>Contact</h2>
     <ul>
-      <li><a href="https://twitter.com/harmancode">Twitter</a></li>
-      <li><a href="https://www.linkedin.com/in/harmanertugrul/">LinkedIn</a></li>
       <li><a href="mailto:harmancode@gmail.com">Email</a></li>
+      <li><a href="https://twitter.com/harmancode">Twitter</a></li>
+      <li><a href="https://github.com/harmancode">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/harmanertugrul/">LinkedIn</a></li>
+      <li><a href="https://stackoverflow.com/users/3780985/ert">StackOverflow</a></li>
     </ul>
   </div>
 
